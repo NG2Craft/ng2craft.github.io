@@ -1,4 +1,29 @@
+# Project Information
 site_name: NG2Craft
 site_url: https://ng2craft.github.io
+site_author: quentintyr
+site_description: >-
+  Documentation for our Minecraft Mods build by the NG2Craft Team.
+
+# Repository
+repo_name: NG2Craft/Homepage
+repo_url: https://github.com/NG2Craft
+
+# Configuration
 theme:
   name: material
+  language: en
+  features:
+    - navigation.indexes
+    - navigation.tabs
+  palette:
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: indigo
+font:
+  text: Roboto
+  code: Roboto Mono
+favicon: assets/favicon.png
+icon:
+  logo: logo

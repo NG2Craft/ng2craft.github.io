@@ -1,0 +1,28 @@
+[project]
+
+# Project Information
+site_name = "NG2Craft"
+site_url = "https://ng2craft.github.io"
+site_author = "quentintyr"
+site_description = "Documentation for our Minecraft Mods build by the NG2Craft Team."
+
+# Repository
+repo_name = "NG2Craft/Homepage"
+repo_url = "https://github.com/NG2Craft"
+
+# Theme Configuration
+[project.theme]
+language = "en"
+favicon = "images/logo.png"
+logo = "images/logo.png"
+font.text = "Roboto"
+font.code = "Roboto Mono"
+
+# Features
+features = ["navigation.indexes", "navigation.tabs"]
+
+# Color Palette - Dark Mode
+[[project.theme.palette]]
+scheme = "slate"
+primary = "black"
+accent = "indigo"

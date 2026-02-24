@@ -20,8 +20,8 @@ s
 ### Other Minecraft Launchers
 Other Launcher guides to install mods using their provided software.
 
-* [Modrinth Launcher](https://google.com) 
-* [Curseforge Launcher](https://google.com)
+* [Modrinth Launcher](https://modrinth.com/app) 
+* [Curseforge Launcher](https://www.curseforge.com/download/app)
 
 ### Adding Mods to Minecraft
 If you are using the official Minecraft Launcher, move the downloaded JAR file (which is probably at your downloads folder) into your mods folder, found in your Minecraft installation:

@@ -19,7 +19,11 @@ nav = [
     { "Resource Packs" = "resourcepacks/resourcepacks.md" },
     { "Discussions" = "discussions/discussions.md" },
     { "FAQ" = "faq/faq.md" },
-    { "About" = "about/about.md" },
+    { "About" = [
+        "about/about.md",
+        "about/support.md",
+        "about/licensing.md",
+    ] },
 ]
 
 # Theme Configuration
@@ -29,6 +33,7 @@ favicon = "images/logo.png"
 logo = "images/logo.png"
 font.text = "Roboto"
 font.code = "Roboto Mono"
+custom_dir = "overrides"
 
 # Features
 features = ["navigation.indexes", "navigation.tabs"]
@@ -38,3 +43,16 @@ features = ["navigation.indexes", "navigation.tabs"]
 scheme = "slate"
 primary = "black"
 accent = "indigo"
+
+[[project.extra.social]]
+icon = "fontawesome/brands/github"
+link = "https://github.com/NG2Craft"
+name = "NG2Craft on Github"
+
+[[project.extra.social]]
+icon = "fontawesome/brands/discord"
+link = "https://dsc.gg/lescouade-net"
+
+[[project.extra.social]]
+icon = "modrinth/modrinth"
+link = "https://github.com/NG2Craft"

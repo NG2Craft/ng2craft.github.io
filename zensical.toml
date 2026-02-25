@@ -14,13 +14,14 @@ repo_url = "https://github.com/NG2Craft"
 # Navigation
 nav = [
     { "Home" = "index.md" },
-    { "Mods" = "mods/mods.md" },
-    { "Datapacks" = "datapacks/datapacks.md" },
-    { "Resource Packs" = "resourcepacks/resourcepacks.md" },
-    { "Discussions" = "discussions/discussions.md" },
-    { "FAQ" = "faq/faq.md" },
+    { "Mods" = "mods/index.md" },
+    { "Datapacks" = "datapacks/index.md" },
+    { "Resource Packs" = "resourcepacks/index.md" },
+    { "Discussions" = "discussions/index.md" },
+    { "FAQ" = "faq/index.md" },
     { "About" = [
-        "about/about.md",
+        "about/index.md",
+        "about/installation.md",
         "about/support.md",
         "about/licensing.md",
     ] },

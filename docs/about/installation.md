@@ -11,11 +11,14 @@ You can find a more in depth guide at the [Fabric wiki.](https://fabricmc.net/wi
 ### Mojang's Minecraft Launcher
 1. Download the Fabric installer from the download page.
 
-2. Open the installer. In the window you need to configure the mapping and loader version (latest loader version is recommended) and the install location (the default should be fine on most platforms). NOTE You need to enable snapshots in order to make the installer show mapping options for Minecraft snapshots.
+2. Open the installer. In the window you need to configure the mapping and loader version (latest loader version is recommended) and the install location (the default should be fine on most platforms). 
+> NOTE 
+>
+> You need to enable snapshots in order to make the installer show mapping options for Minecraft snapshots.
 
 3. Press Install. A new game version and profile will be created in the launcher's menu, which you can now use to launch Fabric.
-s
-4. You may then want to launch your newly created instance once, and then add Fabric API to your instance's mods folder as Fabric does not work without it.
+
+4. You may then want to launch your newly created instance once, and then add Fabric API to your instance's mods folder as some Fabric Mods do not work without it.
 
 ### Other Minecraft Launchers
 Other Launcher guides to install mods using their provided software.

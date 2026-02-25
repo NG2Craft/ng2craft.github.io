@@ -6,18 +6,22 @@ site_url = "https://ng2craft.github.io"
 site_author = "quentintyr"
 site_description = "Documentation for our Minecraft Mods build by the NG2Craft Team."
 copyright = "&copy; 2025 NG2Craft"
+custom_dir = "overrides"
 
 # Repository
 repo_name = "NG2Craft/Homepage"
 repo_url = "https://github.com/NG2Craft"
 
-# Navigation
 nav = [
     { "Home" = "index.md" },
     { "Mods" = "mods/index.md" },
     { "Datapacks" = "datapacks/index.md" },
     { "Resource Packs" = "resourcepacks/index.md" },
-    { "Discussions" = "discussions/index.md" },
+    { "Discussions" = [
+        "discussions/global.md",
+        "discussions/questions.md",
+        "discussions/suggestions.md",
+    ] },
     { "FAQ" = "faq/index.md" },
     { "About" = [
         "about/index.md",
@@ -29,6 +33,7 @@ nav = [
 
 # Theme Configuration
 [project.theme]
+# Navigation
 language = "en"
 favicon = "images/logo.png"
 logo = "images/logo.png"

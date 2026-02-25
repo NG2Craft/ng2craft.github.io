@@ -35,8 +35,8 @@ nav = [
 [project.theme]
 # Navigation
 language = "en"
-favicon = "images/logo.png"
-logo = "images/logo.png"
+favicon = "assets/logo.png"
+logo = "assets/logo.png"
 font.text = "Roboto"
 font.code = "Roboto Mono"
 custom_dir = "overrides"

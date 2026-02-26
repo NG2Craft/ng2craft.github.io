@@ -12,8 +12,14 @@ repo_name = "NG2Craft/Homepage"
 repo_url = "https://github.com/NG2Craft"
 
 nav = [
-    { "Home" = "index.md" },
-    { "Mods" = "mods/index.md" },
+    { "Home" = [
+        "index.md",
+        "important.md",
+    ] },
+    { "Mods" = [
+        "mods/index.md",
+        "mods/recommended.md",
+    ] },
     { "Datapacks" = "datapacks/index.md" },
     { "Resource Packs" = "resourcepacks/index.md" },
     { "Discussions" = [
@@ -32,6 +38,7 @@ nav = [
 
 # Theme Configuration
 [project.theme]
+
 # Navigation
 language = "en"
 favicon = "assets/logo.png"

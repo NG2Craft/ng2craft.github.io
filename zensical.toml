@@ -19,6 +19,7 @@ nav = [
     { "Mods" = [
         "mods/index.md",
         "mods/recommended.md",
+        "mods/VisibleArmorSlots/index.md",
     ] },
     { "Datapacks" = "datapacks/index.md" },
     { "Resource Packs" = "resourcepacks/index.md" },

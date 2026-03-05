@@ -2,7 +2,7 @@
 
 # Project Information
 site_name = "NG2Craft"
-site_url = "https://ng2craft.github.io/"
+site_url = "https://ng2craft.net/"
 site_author = "quentintyr"
 site_description = "Documentation for our Minecraft Mods build by the NG2Craft Team."
 copyright = "&copy; 2025 NG2Craft"
@@ -20,6 +20,7 @@ nav = [
         "mods/index.md",
         "mods/recommended.md",
         "mods/VisibleArmorSlots/index.md",
+        "mods/ArmorProfiles/index.md",
     ] },
     { "Datapacks" = "datapacks/index.md" },
     { "Resource Packs" = "resourcepacks/index.md" },
